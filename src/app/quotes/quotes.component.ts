@@ -9,12 +9,12 @@ export class QuotesComponent implements OnInit {
   
   title='Hello People,Rate This Quotes';
   quotes:Quotes[]= [
-    new Quotes (1,'Charles','Human spirit','The human spirit must prevail over technology to allow humans be in charge.','Albert Einstein', new Date(2019,7,12),0,0),
-    new Quotes (2,'Wendy','Technology…','Technology… the knack of so arranging  that we don’t have to experience it.','Max Frisch',new Date(2019,7,14),0,0),
-    new Quotes (3,'Mikey','The great myth','The great myth of our times is that technology is communication.','Libby Larsen',new Date(2019,6,3),0,0),
-    new Quotes (4,'Beatrice','Communication','Communications tools don’t get socially interesting until they get technologically boring.','Clay Shirky',new Date(2019,7,7),0,0),
-    new Quotes (5,'Charles','Code and people','Programs must be written for people to read, and only incidentally for machines to execute.','Harold Abelson',new Date(2019,7,17),0,0),
-    new Quotes (6,'Alfred','Tech and life','For a list of all the ways technology has failed to improve the quality of life, please press three.','Alice Kahn',new Date(2019,7,15),0,0)
+    new Quotes (1,'Ali','Greatness','Greatness comes from within .','Alinu Ali', new Date(2022,4,13),0,0),
+    new Quotes (2,'Gina','Possibility','It always seems imposible until it is done.','Nelsom Mandela',new Date(2022,3,29),0,0),
+    new Quotes (3,'Stephen','Well-Done','Well-done is better than well-said .','Fraklin Roosevelt',new Date(2022,4,10),0,0),
+    new Quotes (4,'Yvonne','Courage','Have courage to follow your heart and intuition .','Steve Jobs',new Date(2022,4,10),0,0),
+    new Quotes (5,'Mureithi','Great person ','Great person attracts great peole','Johan Wolfgang',new Date(2022,4,11),0,0),
+    new Quotes (6,'J.J MAULIN','INNOCENCE','Every Man is innocent Until Proven gulity.','PROF GEORGE ',new Date(2022,4,12),0,0)
   
 ];
 
