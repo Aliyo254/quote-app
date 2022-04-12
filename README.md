@@ -3,7 +3,7 @@
 ## DESCRIPTION
 This is web application that allows users to view, add, upvote/downvote and delete quotes
 ## AUTHOR
-By Bashir Hassan Billow
+By Alinur Ali
 ## PREREQUISITES
 you require a browser preferably chrome to run this site.Clone this repository  into your machine. You will require a texteditor if your planning on editing.
 ## BUILT WITH
