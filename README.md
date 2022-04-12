@@ -9,9 +9,9 @@ you require a browser preferably chrome to run this site.Clone this repository  
 ## BUILT WITH
 - html
 - bootstrap
-- angular6
+- angular13
 ## LINK TO LIVE SITE
-https://billowbashir.github.io/quotes/
+https://github.com/Aliyo254/quote-app.git
 ## CONTACT DETAILS
 in case of any problems when accesing my site feel free to contact me on billowbashir@gmail.com your feedback will be highly appreciated
 ## LICENCE
