@@ -11,7 +11,7 @@ you require a browser preferably chrome to run this site.Clone this repository  
 - bootstrap
 - angular13
 ## LINK TO LIVE SITE
-https://github.com/Aliyo254/quote-app.git
+https://github.com/Aliyo254/quote-app/
 ## CONTACT DETAILS
 in case of any problems when accesing my site feel free to contact me on alinurali254@gmail.com your feedback will be highly appreciated
 ## LICENCE
