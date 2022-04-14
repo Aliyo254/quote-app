@@ -7,7 +7,7 @@ import { Quotes } from '../quotes';
 })
 export class QuotesComponent implements OnInit {
   
-  title='Hello People,Rate This Quotes';
+  title='Helo There ,Plese Rate This Quotes';
   quotes:Quotes[]= [
     new Quotes (1,'Ali','Greatness','Greatness comes from within .','Alinu Ali', new Date(2022,4,13),0,0),
     new Quotes (2,'Gina','Possibility','It always seems imposible until it is done.','Nelsom Mandela',new Date(2022,3,29),0,0),
@@ -24,13 +24,13 @@ get sortQuotes() {
   });
 }
 
-  addedQuote(quote:any){
+  addedQuote(quote){
     let arraysize = this.quotes.length;
     quote.id = arraysize+1;
     quote.completeDate = new Date(quote.completeDate)
     this.quotes.push(quote)
   }
-  quoteDelete(isRead:any, index:any){
+  quoteDelete(isRead, index){
     if (isRead) {
       let toDelete = confirm(`Are you sure you want to delete this Quote?`)
       if(toDelete){
@@ -40,7 +40,7 @@ get sortQuotes() {
     }
   }
  
-  displayInfo(index:any){
+  displayInfo(index){
     this.quotes[index].showInfo = !this.quotes[index].showInfo;
   }
   constructor() { }
