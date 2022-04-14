@@ -7,7 +7,7 @@ import { Quotes } from '../quotes';
 })
 export class QuotesComponent implements OnInit {
   
-  title='Helo There ,Plese Rate This Quotes';
+  title='Welocome to Quote Centre';
   quotes:Quotes[]= [
     new Quotes (1,'Ali','Greatness','Greatness comes from within .','Alinu Ali', new Date(2022,4,13),0,0),
     new Quotes (2,'Gina','Possibility','It always seems imposible until it is done.','Nelsom Mandela',new Date(2022,3,29),0,0),
